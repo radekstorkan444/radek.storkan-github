@@ -1,0 +1,183 @@
+.hlavninadpis{
+    font-family: sans-serif;
+    text-align: center;
+    border-style: solid;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #3B5998;
+    color:#DFE3EE ;
+    
+}
+.refreshbutton{
+   font-size: 50px;
+   text-decoration: none;
+   margin-top: -100px;
+   
+   
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #66757F;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1cm;
+    width: 70%;
+    padding-right: 0px;
+    border-radius: 1cm; 
+    border-style: ridge; 
+    
+}
+li{
+    list-style-type: none;
+    
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+    
+
+.Fotky{
+    width: 20%;
+    background-color: #CCD6DD;
+    font-size: x-large;
+    border-radius: 1cm;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+    
+    
+}
+.Rodina{
+    width: 20%;
+    background-color: #CCD6DD;
+    font-size: x-large;
+    border-radius: 1cm;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Koníčky{
+    width: 20%;
+    background-color: #CCD6DD;
+    font-size: x-large;
+    border-radius: 1cm;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Studium{
+    width: 20%;
+    background-color: #CCD6DD;
+    font-size: x-large;
+    border-radius: 1cm;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.obsah1{
+    background-color: #3B5998 ;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 1cm;
+    border-style: ridge;
+    color:#DFE3EE ;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    word-spacing: 1px;
+    font-size: large;
+    
+}
+.obsah2{
+    background-color: #3B5998 ;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 1cm;
+    border-style: ridge;
+    color:#DFE3EE ;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    word-spacing: 1px;
+    font-size: large;
+    
+}
+.obsah3{
+    background-color: #3B5998 ;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 1cm;
+    border-style: ridge;
+    color:#DFE3EE ;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    word-spacing: 1px;
+    font-size: large;
+    
+}
+.celkovýobal{
+    font-family: sans-serif;
+    background-color:#DFE3EE ;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.celkovýobsah{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:1500px) {
+    .celkovýobsah{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .menu{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .Fotky{
+        width: 80%;
+        
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .Rodina{
+       width: 80%;
+       margin-top: 4px;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .Koníčky{
+        width: 80%;
+        margin-top: 4px;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .Studium{
+        width: 80%;
+        margin-top: 6px;
+    }
+    
+}
+img{
+    padding: 1cm;
+   
+}
